@@ -1,0 +1,101 @@
+import React from 'react'
+
+import butterfly from '../images/uploads/experience/ButterflyIcon.svg'
+import frontlash from '../images/uploads/experience/TheFrontlash_Logo_Secondary_Poppy.png'
+import einvasion from '../images/uploads/experience/e-invasion-logo.jpg'
+import edanz from '../images/uploads/experience/logo-edanz.png'
+import web4aviation from '../images/uploads/experience/web4aviation-logo.png'
+import webacom from '../images/uploads/experience/webacom-logo.png'
+
+const Work = () => {
+	return(
+		<div className="education">
+	        <div className="education-box">
+	            <time className="education-date" dateTime="2019-02T2019-07">
+	                <span>Feb <strong className="text-upper">2019</strong> - Jul <strong>2019</strong></span>
+	            </time>
+	            <h3>Freelance Full Stack WordPress Developer</h3>
+	            <div className="education-logo">
+	                <a href="https://www.butterfly.ai/" target="_blank" rel="noopener noreferrer"><img src={butterfly} alt="Butterfly"/></a>
+	            </div>
+	            <span className="education-company"><a href="https://www.butterfly.ai/" target="_blank" rel="noopener noreferrer">Butterfly</a></span>
+	            <p>Responsible to develop a complex website <a href="https://www.butterfly.ai/" target="_blank" rel="noopener noreferrer">butterfly.ai</a> in WordPress platform from scratch. <br />Improved the speed optimisation up to 90% both mobile and desktop.</p>
+	        </div>
+	        
+	        
+	        <div className="education-box">
+	            <time className="education-date" dateTime="2019-08T2019-12">
+	                <span>Aug <strong className="text-upper">2019</strong> - Dec <strong>2019</strong></span>
+	            </time>
+	            <h3>Freelance Full Stack WordPress Developer</h3>
+	            <span className="education-company">Aodhan King</span>
+	            <p>Responsible to develop two complex websites <a href="https://www.piedraclave.com/" target="_blank" rel="noopener noreferrer">piedraclave.com</a> and <a href="https://www.kidsofcoral.com/" target="_blank" rel="noopener noreferrer">kidsofcoral.com</a> in WordPress platform from scratch. <br />Improved the speed optimisation from 40% to 90% both mobile and desktop.</p>
+	        </div>
+	        
+	        <div className="education-box">
+	            <time className="education-date" dateTime="2018-03T2018-12">
+	                <span>Mar <strong className="text-upper">2018</strong> - Dec <strong>2018</strong></span>
+	            </time>
+	            <h3>Freelance Full Stack WordPress Developer</h3>
+	            <div className="education-logo">
+	                <a href="https://www.thefrontlash.com" target="_blank" rel="noopener noreferrer"><img src={frontlash} alt="The Frontlash"/></a>
+	            </div>
+	            <span className="education-company"><a href="https://www.thefrontlash.com" target="_blank" rel="noopener noreferrer">The Frontlash</a></span>
+	            <p>Responsible to develop a PWA complex fashion blog site <a href="https://www.thefrontlash.com" target="_blank" rel="noopener noreferrer">thefrontlash.com.</a> in WordPress platform. <br />Improved the speed optimisation from 20% to 90% both mobile and desktop.</p>
+	        </div>
+
+            <div className="education-box">
+                <time className="education-date" dateTime="2018-04T2018-08">
+                    <span>Apr <strong className="text-upper">2018</strong> - Aug <strong>2018</strong></span>
+                </time>
+                <h3>Freelance Full Stack WordPress Developer</h3>
+                <div className="education-logo">
+                    <a href="https://e-invasion.com/" target="_blank" rel="noopener noreferrer"><img src={einvasion} alt="einvasion"/></a>
+                </div>
+                <span className="education-company"><a href="https://e-invasion.com/" target="_blank" rel="noopener noreferrer">E-Invasion A/S</a></span>
+                <p>Responsible to develop ecommerce sites <a href="https://www.posterfamily.com" target="_blank" rel="noopener noreferrer">posterfamily.com</a>, <a href="http://www.clearblueshop.dk/" target="_blank" rel="noopener noreferrer">clearblueshop.dk</a>, <a href="http://www.clearblueshop.se/" target="_blank" rel="noopener noreferrer">clearblueshop.se</a> and one plugin <a href="https://babyplan.se/berakna-agglossning/" target="_blank" rel="noopener noreferrer">ovulation calculator</a>. <br />Configured the server and optimised the site for speed optimisation up to 90%.</p>
+            </div>
+
+            <div className="education-box">
+                <time className="education-date" dateTime="2016-08T2017-06">
+                    <span>Aug <strong className="text-upper">2016</strong> - Jul <strong>2017</strong></span>
+                </time>
+                <h3>Freelance Full Stack WordPress Developer</h3>
+                <div className="education-logo">
+                    <a href="https://en-author-services.edanzgroup.com/" target="_blank" rel="noopener noreferrer"><img src={edanz} alt="Edanz Group Ltd"/></a>
+                </div>
+                <span className="education-company"><a href="https://en-author-services.edanzgroup.com/" target="_blank" rel="noopener noreferrer">Edanz Group Ltd.</a></span>
+                <p>Responsible to develop an e-commerce site for language editing services for non English academics who want to publish articles in English journals.<br />
+Technology: WordPress, Woocommerce, EBANX payment gateway integration, WP Project Manager Pro.</p>
+            </div>
+            
+            <div className="education-box">
+                <time className="education-date" dateTime="2012-08T2018-12">
+                    <span>Aug <strong className="text-upper">2012</strong> - Dec <strong>2018</strong></span>
+                </time>
+                <h3>Freelance Full Stack WordPress Developer</h3>
+                <div className="education-logo">
+                    <a href="http://web4aviation.com/" target="_blank" rel="noopener noreferrer"><img src={web4aviation} alt="Web4Aviation"/></a>
+                </div>
+                <span className="education-company"><a href="http://web4aviation.com/" target="_blank" rel="noopener noreferrer">Web4Aviation</a></span>
+                <p>Responsible to develop various WordPress themes based on PSD.<br />
+Main projects were: <a href="https://www.flysbyairport.com/" target="_blank" rel="noopener noreferrer">FlySBYAirport</a>, <a href="https://web4aviation.com/" target="_blank" rel="noopener noreferrer">Web4Aviation</a>, <a href="https://www.bayrestoration.org/" target="_blank" rel="noopener noreferrer">Bayrestoration</a>, <a href="https://laporteairport.com/" target="_blank" rel="noopener noreferrer">Laporte Airport</a>, <a href="https://eastonairport.com/" target="_blank" rel="noopener noreferrer">Easton Airport</a></p>
+            </div>
+            
+            <div className="education-box">
+                <time className="education-date" dateTime="2014-08T2016-05">
+                    <span>Aug <strong className="text-upper">2014</strong> - May <strong>2016</strong></span>
+                </time>
+                <h3>Freelance Full Stack WordPress Developer</h3>
+                <div className="education-logo">
+                    <a href="https://www.webacom.com/" target="_blank" rel="noopener noreferrer"><img src={webacom} alt="Webacom"/></a>
+                </div>
+                <span className="education-company"><a href="https://www.webacom.com/" target="_blank" rel="noopener noreferrer">Webacom</a></span>
+                <p>Responsible to cusomise various WordPress themes.<br />
+Main projects were: <a href="http://www.dlg-law.ca/" target="_blank" rel="noopener noreferrer">Davison Law Group</a>, <a href="http://www.pietrowlawgroup.ca/" target="_blank" rel="noopener noreferrer">Pietrow Law Group</a>, <a href="http://superbconstructiongroup.com/" target="_blank" rel="noopener noreferrer">Superb Construction</a>, <a href="http://www.newheightsaccounting.com/" target="_blank" rel="noopener noreferrer">New Heights Accounting Corporation</a>, <a href="http://www.wcivalvesandpumps.com/" target="_blank" rel="noopener noreferrer">WestCoast Industrial Valves and Pumps</a></p>
+            </div>            
+        </div>
+	)
+}
+
+export default Work

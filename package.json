@@ -1,0 +1,72 @@
+{
+  "name": "gatsby-starter-wordpress",
+  "description": "Resume website",
+  "version": "0.1.0",
+  "author": "zakirsajib@gmail.com",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "gatsby": "^2.18.5",
+    "gatsby-image": "^2.2.33",
+    "gatsby-plugin-google-analytics": "^2.1.28",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-humans-txt": "^1.1.4",
+    "gatsby-plugin-lodash": "^3.1.7",
+    "gatsby-plugin-manifest": "^2.2.29",
+    "gatsby-plugin-netlify": "^2.1.12",
+    "gatsby-plugin-offline": "^3.0.25",
+    "gatsby-plugin-preconnect": "^1.0.5",
+    "gatsby-plugin-preload-link-crossorigin": "^1.0.2",
+    "gatsby-plugin-purgecss": "^4.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.18",
+    "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
+    "gatsby-plugin-sass": "^2.1.14",
+    "gatsby-plugin-sharp": "^2.2.21",
+    "gatsby-plugin-sitemap": "^2.2.24",
+    "gatsby-plugin-styled-components": "^3.1.13",
+    "gatsby-remark-images": "^3.1.21",
+    "gatsby-remark-responsive-iframe": "^2.2.27",
+    "gatsby-source-filesystem": "^2.1.22",
+    "gatsby-transformer-remark": "^2.6.43",
+    "gatsby-transformer-sharp": "^2.2.14",
+    "gsap": "^3.0.1",
+    "lodash": "^4.17.5",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.4",
+    "prismjs": "^1.17.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-sticky-el": "^1.1.0",
+    "smooth-scroll": "^16.1.0",
+    "styled-components": "^4.4.1",
+    "styled-normalize": "^8.0.6",
+    "uuid": "^3.3.3"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "start": "npm run develop",
+    "clean": "rimraf .cache public",
+    "build": "npm run clean && gatsby build",
+    "develop": "npm run clean && gatsby develop",
+    "serve": "gatsby serve",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "gatsby-source-github": "0.0.2",
+    "prettier": "^1.18.2",
+    "rimraf": "^3.0.0"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true
+  }
+}

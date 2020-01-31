@@ -1,0 +1,36 @@
+.crt-sidebar-close{
+	-webkit-transform: translate(400px,0);
+    transform: translate(400px,0);
+}
+.crt-sidebar-opened{
+	-webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+.crt-share-box  blockquote{
+    background-image: url(../images/quote_e50de5.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    quotes:none;
+    font-size: 1.5em!important;
+    font-weight: 400;
+    letter-spacing: -.3px;
+    border-width: 0!important;
+    border-radius: 0!important;
+    max-width: 100%!important;
+}
+.crt-share-box  blockquote p {
+    font-size: 1.5em!important;
+    font-weight: 400;
+    letter-spacing: -.3px;
+}
+.ref-cont {
+    font-size: 1em;
+    line-height: 1.2em;
+    padding: 0;
+    position: relative;
+    border-width: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 25px 0 0;
+}
