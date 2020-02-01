@@ -20,28 +20,28 @@ class Form extends Component {
                 <div className="form-group">
                     <label className="form-label">Name</label>
                     <div className="form-item-wrap">
-                        <input id="author" className="form-item" type="text" required="required"/>
+                        <input id="author" className="form-item" name="name" type="text" required="required"/>
                     </div>
                 </div>
 				{/* Email field */}
                 <div className="form-group">
                     <label className="form-label" >E-mail</label>
                     <div className="form-item-wrap">
-                        <input id="email" className="form-item" type="email" required="required"/>
+                        <input id="email" className="form-item" name="email" type="email" required="required"/>
                     </div>
                 </div>
 				{/* Subject field */}
                 <div className="form-group">
                     <label className="form-label">Subject</label>
                     <div className="form-item-wrap">
-                        <input id="subject" className="form-item" type="text" required="required"/>
+                        <input id="subject" className="form-item" type="text" name="subject" required="required"/>
                     </div>
                 </div>
 				{/* Comment field */}
                 <div className="form-group">
                     <label className="form-label">Comment</label>
                     <div className="form-item-wrap">
-                        <textarea id="comment" className="form-item" required="required"></textarea>
+                        <textarea id="comment" className="form-item" name="comment" required="required"></textarea>
                     </div>
                 </div>
 				{/* Submit button */}
