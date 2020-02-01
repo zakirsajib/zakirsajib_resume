@@ -6,6 +6,7 @@ import einvasion from '../images/uploads/experience/e-invasion-logo.jpg'
 import edanz from '../images/uploads/experience/logo-edanz.png'
 import web4aviation from '../images/uploads/experience/web4aviation-logo.png'
 import webacom from '../images/uploads/experience/webacom-logo.png'
+import stage from '../images/uploads/experience/thestage_logo.svg'
 
 const Work = () => {
 	return(
@@ -65,8 +66,7 @@ const Work = () => {
                     <a href="https://en-author-services.edanzgroup.com/" target="_blank" rel="noopener noreferrer"><img src={edanz} alt="Edanz Group Ltd"/></a>
                 </div>
                 <span className="education-company"><a href="https://en-author-services.edanzgroup.com/" target="_blank" rel="noopener noreferrer">Edanz Group Ltd.</a></span>
-                <p>Responsible to develop an e-commerce site for language editing services for non English academics who want to publish articles in English journals.<br />
-Technology: WordPress, Woocommerce, EBANX payment gateway integration, WP Project Manager Pro.</p>
+                <p>Responsible to develop an e-commerce site for language editing services for non English academics who want to publish articles in English journals.</p>
             </div>
             
             <div className="education-box">
@@ -93,7 +93,20 @@ Main projects were: <a href="https://www.flysbyairport.com/" target="_blank" rel
                 <span className="education-company"><a href="https://www.webacom.com/" target="_blank" rel="noopener noreferrer">Webacom</a></span>
                 <p>Responsible to cusomise various WordPress themes.<br />
 Main projects were: <a href="http://www.dlg-law.ca/" target="_blank" rel="noopener noreferrer">Davison Law Group</a>, <a href="http://www.pietrowlawgroup.ca/" target="_blank" rel="noopener noreferrer">Pietrow Law Group</a>, <a href="http://superbconstructiongroup.com/" target="_blank" rel="noopener noreferrer">Superb Construction</a>, <a href="http://www.newheightsaccounting.com/" target="_blank" rel="noopener noreferrer">New Heights Accounting Corporation</a>, <a href="http://www.wcivalvesandpumps.com/" target="_blank" rel="noopener noreferrer">WestCoast Industrial Valves and Pumps</a></p>
-            </div>            
+            </div> 
+            
+            <div className="education-box">
+                <time className="education-date" dateTime="2011-08T2011-12">
+                    <span>Aug <strong className="text-upper">2011</strong> - Dec <strong>2011</strong></span>
+                </time>
+                <h3>Freelance Full Stack WordPress Developer</h3>
+                <div className="education-logo">
+                    <a href="http://www.thestage.co.uk/" target="_blank" rel="noopener noreferrer"><img src={stage} alt="The Stage"/></a>
+                </div>
+                <span className="education-company"><a href="http://www.thestage.co.uk/" target="_blank" rel="noopener noreferrer">The Stage</a></span>
+                <p>Responsible to build website using WordPress.<br /></p>
+            </div>
+            
         </div>
 	)
 }

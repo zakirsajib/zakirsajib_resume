@@ -4,7 +4,7 @@ import {useStaticQuery, graphql} from 'gatsby'
 const Repository = () => {
 	
 	
-	let imgAray = ['prj-01', 'prj-02', 'prj-03', 'prj-04', 'prj-05'];
+	let imgAray = ['prj-01', 'prj-02', 'prj-03', 'prj-04', 'prj-05', 'prj-06'];
 	
 	let images = imgAray.map(image => {
            return <img key={image} src={require(`../images/uploads/portfolio/${image}.jpg`)} alt="" />

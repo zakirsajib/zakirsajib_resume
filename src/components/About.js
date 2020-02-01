@@ -8,7 +8,7 @@ const About =()=> {
                     <h2 className="title-lg text-upper">Helo, I’m Zakir Sajib!</h2>
                     <div className="text-box">
                         <p>
-                        I am a freelance Web developer with nine-plus years of experience working as a WordPress expert and has helped many clients around the world by building their online presence through high-quality custom themes and plugins.
+                        I am a full-stack WordPress Developer (Yes both front and backend) with WooCommerce experience. I helped many clients around the world by building high-quality custom themes and plugins.
                         </p>
                     </div>
                 </div>
