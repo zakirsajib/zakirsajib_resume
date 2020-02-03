@@ -13,7 +13,6 @@ const TemplateWrapper = ({ children }) => (
     <meta name="google-site-verification" content={`${userConfig.googleSiteVerification}`} />
       <meta name="author" content={`${userConfig.author}`} />
       <meta name="description" content={`${userConfig.description}`} />
-      <meta name="keywords" content={`${userConfig.keywords}`}></meta>
     </Helmet>
     <div>{children}</div>
     <FooterWrapper />

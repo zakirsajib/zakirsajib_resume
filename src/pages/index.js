@@ -58,7 +58,6 @@ export default class TemplateWrapper extends React.Component{
 	    <meta name="google-site-verification" content={`${userConfig.googleSiteVerification}`} />
 	      <meta name="author" content={`${userConfig.author}`} />
 	      <meta name="description" content={`${userConfig.description}`} />
-	      <meta name="keywords" content={`${userConfig.keywords}`}></meta>
 	    </Helmet>
 	    {sidebar_status == `${sidebar_open}` ? (
 		    <div id="crt-overlay" style={{opacity: `1`}} onClick={this.toggleSidenav.bind(this)}></div>
