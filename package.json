@@ -5,7 +5,7 @@
   "author": "zakirsajib@gmail.com",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.19.12",
+    "gatsby": "^2.20.2",
     "gatsby-image": "^2.2.33",
     "gatsby-plugin-google-analytics": "^2.1.28",
     "gatsby-plugin-google-fonts": "^1.0.1",
@@ -52,8 +52,9 @@
   "scripts": {
     "start": "npm run develop",
     "clean": "rimraf .cache public",
-    "build": "npm run clean && gatsby build",
-    "develop": "npm run clean && gatsby develop",
+    "build": "npm run clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby build",
+    "develop": "npm run clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby develop",
+    "restart": "kill-port --port 8000 && npm run clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
