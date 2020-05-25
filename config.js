@@ -7,11 +7,11 @@ module.exports = {
   googleAnalyticsID: 'UA-39208489-5',
   googleSiteVerification: 'MGH2iJ6T5_R_hxmCHeikDehPlc7Ttn6eL_v-Owv0718',
   social: {
-    website: 'https://nirvana.netlify.com',
+    website: 'https://nirvana.netlify.app',
     github: 'https://github.com/zakirsajib',
     linkedin: 'https://www.linkedin.com/in/zakirsajib',
     email: 'zakirsajib@gmail.com',
   },
   pathPrefix: '/',
-  siteUrl: 'https://zsresume.netlify.com',
+  siteUrl: 'https://zsresume.netlify.app',
 };

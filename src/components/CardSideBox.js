@@ -3,6 +3,8 @@ import React from 'react'
 import Social from '../components/Social'
 import zs195 from '../images/uploads/avatar/zs-195x195.jpg'
 
+import cv from '../cv/Latest-CV.pdf'
+
 const CardSideBox = () => {
 	return (
 		<div id="crt-side-box">
@@ -19,7 +21,7 @@ const CardSideBox = () => {
 				    </div>
 				</div>
 		        <div className="crt-side-box-btn">
-		            <a className="btn btn-default btn-lg btn-block btn-thin btn-upper" href="#">Download Resume</a>
+		            <a className="btn btn-default btn-lg btn-block btn-thin btn-upper" href={cv} target="_blank" rel="noopener noreferrer">Download Resume</a>
 		        </div>
 			</div>
 		</div>

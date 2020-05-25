@@ -56,7 +56,7 @@ const Repository = () => {
 		                                            <p>{repository.description}</p>
 		                                        </div>
 		
-		                                        <a className="btn btn-primary" role="button" href={repository.url} target="_blank" rel="noopener noreferrer">View repository</a>
+		                                        <button className="btn btn-primary" role="button" href={repository.url} target="_blank" rel="noopener noreferrer">View repository</button>
 		                                    </div>
 		                                </div>
 		                            </div>

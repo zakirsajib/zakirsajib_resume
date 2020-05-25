@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://zsresume.netlify.com`,
+        siteUrl: `https://zsresume.netlify.app`,
       },
     },
     `gatsby-plugin-sass`,
@@ -29,7 +29,7 @@ module.exports = {
         ],
         thanks: [`Gatsby`, `Node`],
         site: {
-          'Last update': `2020/01/31`,
+          'Last update': `2020/05/25`,
           Standards: `JavaScript`,
           Components: `humans-generator`,
           Softwares: `Visual Studio Code`
@@ -51,7 +51,7 @@ module.exports = {
 	    resolve: 'gatsby-source-github',
 	    options: {
 	      headers: {
-	        Authorization: `Bearer 2b0008e052ece236fd4d012d39f0e2d33869b134`,
+	        Authorization: `Bearer 61ceb66a4aafb5a151260793592599152f8195a1`,
 	      },
 	      queries: [
 	        `{

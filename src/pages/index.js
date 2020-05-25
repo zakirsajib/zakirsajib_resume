@@ -15,17 +15,14 @@ import Work from '../components/Work'
 import Education from '../components/Education'
 import Repository from '../components/Repository'
 import References from '../components/References'
-import Clients from '../components/Clients'
+//import Clients from '../components/Clients'
 import Blog from '../components/Blog'
 import Form from '../components/Contact'
 import Social from '../components/Social'
-import MobileMenu from '../components/MobileMenu'
+//import MobileMenu from '../components/MobileMenu'
 import FooterWrapper from '../components/Footer'
 import SVG from '../components/SVG'
 
-if (typeof window !== "undefined") {
-  require("smooth-scroll")('a[href*="#"]')
-}
 
 
 export default class TemplateWrapper extends React.Component{

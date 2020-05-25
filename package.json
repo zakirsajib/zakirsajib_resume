@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-wordpress",
   "description": "Resume website",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "zakirsajib@gmail.com",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
@@ -37,9 +37,9 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "react-scroll": "^1.7.16",
     "react-sticky-el": "^1.1.0",
     "react-tooltip": "^3.11.3",
-    "smooth-scroll": "^16.1.0",
     "styled-components": "^4.4.1",
     "styled-normalize": "^8.0.6",
     "uuid": "^3.3.3"

@@ -4,8 +4,6 @@ import FooterWrapper from '../components/Footer'
 
 import userConfig from '../../config'
 
-//import GlobalStyle from '../global-styles'
-
 const TemplateWrapper = ({ children }) => (
   <div>
     
