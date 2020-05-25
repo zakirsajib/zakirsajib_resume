@@ -1,6 +1,6 @@
 # Resume site in Gatsby
 
-Live site: https://zsresume.netlify.com
+Live site: https://zsresume.netlify.app
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/da1720d9-2652-4dbd-9adc-22cbba1a60e6/deploy-status)](https://app.netlify.com/sites/zsresume/deploys)
 
