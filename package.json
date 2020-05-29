@@ -5,6 +5,7 @@
   "author": "zakirsajib@gmail.com",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
+    "chart.js": "^2.9.3",
     "gatsby": "^2.20.2",
     "gatsby-image": "^2.2.33",
     "gatsby-plugin-google-analytics": "^2.1.28",
@@ -35,6 +36,7 @@
     "prismjs": "^1.17.1",
     "prop-types": "^15.6.0",
     "react": "^16.9.0",
+    "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "react-scroll": "^1.7.16",

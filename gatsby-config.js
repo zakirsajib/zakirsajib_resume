@@ -42,7 +42,7 @@ module.exports = {
       	options: {
 	        fonts: [
 	           `Pacifico`,
-	           `Quicksand\:400, 700`
+	           `Ubuntu\:400, 500`
 	        ],
 	        display: 'swap'
 	    },
@@ -88,7 +88,7 @@ module.exports = {
         ]
       }
     },
-    'gatsby-plugin-preload-link-crossorigin',   
+    'gatsby-plugin-preload-link-crossorigin',
     {
       resolve: `gatsby-transformer-remark`,
       options: {

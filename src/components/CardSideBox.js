@@ -11,17 +11,35 @@ const CardSideBox = () => {
 	    	<div className="crt-side-box-item">
 				<div className="crt-card bg-primary text-center">
 				    <div className="crt-card-avatar">
-				        <img className="avatar avatar-195" src={zs195}
-				             width="195" height="195" alt="Zakir Sajib - WordPress Developer with WooCommerce Experience"/>
+				        <img
+									className="avatar avatar-195"
+									src={zs195}
+				          width="195"
+									height="195"
+									alt="Zakir Sajib - Full-Stack Web Developer - React.js | Node.js | Gatsby.js | WordPress"
+								/>
 				    </div>
 				    <div className="crt-card-info">
-				        <h2 className="text-upper">Zakir Sajib</h2>
-				        <p className="text-muted">WordPress Developer with WooCommerce Experience</p>
+				        <h2
+									className="text-upper"
+								>
+								Zakir Sajib
+							 </h2>
+				        <p
+									className="text-muted"
+								>
+								Full-Stack Web Developer <span style={{fontSize:`1em`}}>React.js | Node.js | Gatsby.js | WordPress</span>
+								</p>
 				        <Social />
 				    </div>
 				</div>
 		        <div className="crt-side-box-btn">
-		            <a className="btn btn-default btn-lg btn-block btn-thin btn-upper" href={cv} target="_blank" rel="noopener noreferrer">Download Resume</a>
+		            <a
+									className="btn btn-default btn-lg btn-block btn-thin btn-upper"
+									href={cv}
+									target="_blank"
+									rel="noopener noreferrer"
+								>Download Resume</a>
 		        </div>
 			</div>
 		</div>

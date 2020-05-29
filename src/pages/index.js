@@ -3,14 +3,18 @@ import Helmet from 'react-helmet'
 
 import Sticky from 'react-sticky-el'
 
-//import GlobalStyle from '../global-styles'
+import GlobalStyle from '../global-styles'
 import userConfig from '../../config'
 
 import Header from '../components/Header'
 import Sidenav from '../components/SideNav'
 import Card from '../components/Card'
 import About from '../components/About'
-import Skills from '../components/Skills'
+import CMSDoughnut from '../components/Skills/CMSDoughnut'
+import FrontendBar from '../components/Skills/FrontendBar'
+import BackendBar from '../components/Skills/BackendBar'
+import OtherSkillsBar from '../components/Skills/OtherSkillsBar'
+
 import Work from '../components/Work'
 import Education from '../components/Education'
 import Repository from '../components/Repository'
@@ -26,7 +30,7 @@ import SVG from '../components/SVG'
 
 
 export default class TemplateWrapper extends React.Component{
-	
+
 	constructor(props) {
 	    super();
 	    this.state = {
@@ -38,18 +42,18 @@ export default class TemplateWrapper extends React.Component{
 	}
 
 	render() {
-   
-	let sidebar_close = 'crt crt-side-box-on crt-nav-on crt-nav-type2 crt-main-nav-on crt-sidebar-on crt-layers-1'; 
-  
+
+	let sidebar_close = 'crt crt-side-box-on crt-nav-on crt-nav-type2 crt-main-nav-on crt-sidebar-on crt-layers-1';
+
 	let sidebar_open = 'crt crt-side-box-on crt-nav-on crt-nav-type2 crt-main-nav-on crt-sidebar-on crt-layers-1 crt-sidebar-opened';
-  
+
 	let sidebar_status = this.state.close ? `${sidebar_close}` : `${sidebar_open}`;
-    
+
     let social_sidebar ='text-primary';
-    
+
 	return(
 	<div>
-	    
+		<GlobalStyle />
 	    <Helmet title={`${userConfig.name} | ${userConfig.title}`}>
 	    <html lang="en" className={`${sidebar_status}`}/>
 	    <meta name="google-site-verification" content={`${userConfig.googleSiteVerification}`} />
@@ -65,17 +69,20 @@ export default class TemplateWrapper extends React.Component{
 		<div id="crt-container" className="crt-container">
 		<Card />
 		<Sidenav />
-            
-        <div className="crt-container-sm">        
+
+        <div className="crt-container-sm">
            <div id="about" className="crt-paper-layers crt-animate">
             	<div className="crt-paper clearfix">
                 	<div className="crt-paper-cont paper-padd clear-mrg">
                     	<section className="section brd-btm padd-box">
                     		<About />
-						</section>
-						<section className="section padd-box">
-                        	<Skills />
-						</section>
+											</section>
+											<section className="section padd-box">
+                        	<CMSDoughnut />
+													<FrontendBar />
+													<BackendBar />
+													<OtherSkillsBar />
+											</section>
                 </div>
             </div>
         </div>
@@ -89,7 +96,7 @@ export default class TemplateWrapper extends React.Component{
                     </section>
                     <section id="timeline" className="section padd-box">
                     	<h2 className="title-lg text-upper">Education</h2>
-						<Education /> 
+						<Education />
                     </section>
                 </div>
             </div>
@@ -111,7 +118,7 @@ export default class TemplateWrapper extends React.Component{
         </div>
 		<div id="blog" className="crt-paper-layers crt-animate">
 			<div className="crt-paper clear-mrg clearfix">
-				<div className="crt-paper-cont paper-padd clear-mrg"> 
+				<div className="crt-paper-cont paper-padd clear-mrg">
 					<Blog />
 				</div>
 			</div>
@@ -142,7 +149,7 @@ export default class TemplateWrapper extends React.Component{
     */}
     <FooterWrapper />
     <SVG />
-    
+
     </div>
   </div>
 );
