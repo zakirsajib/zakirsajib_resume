@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactTooltip from 'react-tooltip'
 import { Link, animateScroll as scroll } from "react-scroll";
-import ThemeChanger from '../components/themeChanger'
+import ThemeChanger from '../components/ThemeChanger'
 import zs42 from '../images/uploads/avatar/zs-42x42.jpg'
 
 const Nav =() => {
