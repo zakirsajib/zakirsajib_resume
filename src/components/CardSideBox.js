@@ -28,7 +28,7 @@ const CardSideBox = () => {
 				        <p
 									className="text-muted"
 								>
-								Full-Stack Web Developer <span style={{fontSize:`1em`}}>React.js | Node.js | Gatsby.js | WordPress</span>
+								Full-Stack Web Developer<br /> <span style={{fontSize:`1em`}}>React.js | Node.js | Gatsby.js | WordPress</span>
 								</p>
 				        <Social />
 				    </div>

@@ -8,6 +8,14 @@ const GlobalStyle = createGlobalStyle`
     .pf-text{
       display: none;
     }
+    .pf-caption .valign-cell{
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .pf-grid-item{
+      width: 100%;
+    }
   }
 `;
 export default GlobalStyle;

@@ -12,11 +12,12 @@ const data = {
 		'Bulma',
 		'Tailwind',
 		'CSS Modules',
-		'CSS-in-JS'
+		'CSS-in-JS',
+		'Styled Components'
 	],
 	datasets: [{
 		label: 'My Front-end skills',
-		data: [50, 50, 50, 50, 80, 80, 80, 20, 50, 50, 0, 100],
+		data: [50, 50, 50, 50, 80, 80, 80, 20, 50, 50, 50, 0, 100],
 		backgroundColor: [
 		'#F0db4F',
 		'#61DBFB',
@@ -27,7 +28,8 @@ const data = {
 		'#00d1b2',
 		'#38b2ac',
 		'#f1f1f1',
-		'#000000'
+		'#000000',
+		'rgb(218, 163, 87)'
 		],
 		hoverBackgroundColor: [
 			'#F0db4F',
@@ -39,7 +41,8 @@ const data = {
 			'#00d1b2',
 			'#38b2ac',
 			'#f1f1f1',
-			'#000000'
+			'#000000',
+			'rgb(218, 163, 87)'
 		]
 	}]
 };
