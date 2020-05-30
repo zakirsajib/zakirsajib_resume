@@ -1,4 +1,7 @@
-.pf-title{font-size:1.18em;text-transform: capitalize;}
+.pf-title{
+	font-size:1.18em;
+	text-transform: capitalize;
+}
 .crt-sidebar-close{
 	-webkit-transform: translate(400px,0);
     transform: translate(400px,0);
@@ -37,4 +40,11 @@
 }
 .btn:hover{
 	background-color: #c0e3e7;
+}
+.avatar-42{
+	width: 32px;
+	height: 32px;
+}
+#crt-nav-sm li .crt-icon{
+	font-size: 20px;
 }

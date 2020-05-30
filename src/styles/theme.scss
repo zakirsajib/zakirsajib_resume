@@ -1,0 +1,231 @@
+body.dark{
+  color: #fff;
+  background-color: #121F26;
+    #crt-bg-shape-1 polygon,
+    #crt-bg-shape-2 polygon{
+      fill: #1FA184;
+    }
+
+    #crt-nav-sm li.current a,
+    .brd-primary,
+    .btn-share,
+    .education-date:after,
+    .education-date:before,
+    .progress-bullets .bullet {
+      border-color: #1FA184;
+    }
+
+    canvas,
+    #crt-main-nav .sub-menu .current>a,
+    #crt-main-nav .sub-menu li>a:hover,
+    #crt-main-nav-sm .sub-menu:before,
+    .accordion-header:before,
+    .bg-primary,
+    .bg-primary.text-dropcup-sq,
+    .btn-primary,
+    .education-date,
+    .education:before,
+    .progress-bullets .bullet.fill,
+    .raiting-circle .fill,
+    .tabs .tabs-menu li a:hover,
+    .tabs .tabs-menu li.active a,
+    .togglebox-header:before, mark{
+      background-color: #1FA184;
+    }
+    #crt-container,
+    #crt-main-nav .sub-menu,
+    #crt-sidebar,
+    .cr-carousel .slick-next,
+    .cr-carousel .slick-prev,
+    .crt-card-footer,
+    .crt-head-inner,
+    .crt-nav-type1 .crt-nav-cont,
+    .crt-paper,
+    .crt-paper-layers:after,
+    .crt-paper-layers:before,
+    .crt-side-box-item,
+    .crt-tooltip:after,
+    .education-box:last-child:after,
+    .pf-popup-content,
+    .tooltip:after,
+    blockquote.quote-side:before,
+    blockquote.quote-top:before {
+      background-color: #313C42;
+    }
+    #comments .comment-body,
+    #comments .comment-list,
+    .crt-head-inner,
+    .crt-nav-type1 .crt-nav-cont,
+    .crt-paper,
+    .crt-paper-layers:after,
+    .crt-paper-layers:before,
+    .page-category .post-footer,
+    .post-category-comment a,
+    .post-tags a,
+    .reference-box,
+    .search-for,
+    .tabs .tabs-menu,
+    .tabs-vertical:before,
+    .widget ol li,
+    .widget ul li,
+    .widget_tag_cloud .tagcloud a,
+    blockquote,
+    hr,
+    td,
+    th {
+      border-color: #313C42;
+    }
+    #crt-main-nav .sub-menu a,
+    #crt-main-nav-sm li.current a,
+    #crt-main-nav-sm li>a:hover,
+    #crt-main-nav>ul>li.current>a,
+    #crt-main-nav>ul>li>a:hover,
+    .btn-primary,
+    .brd-btm,
+    .crt-logo,
+    .crt-nav a,
+    .crt-tooltip,
+    .page-numbers.current,
+    .page-numbers:hover,
+    .pf-filter button,
+    .search-title span,
+    .tabs .tabs-menu a,
+    .widget_posts_entries a,
+    .widget_posts_entries li h3,
+    .widget_recent_entries li>a .widget_categories li a,
+    .widget_tag_cloud .tagcloud a,
+    blockquote.quote-side:before,
+    blockquote.quote-top:before,
+    h1, h2, h3, h4, h5, h6{
+      color: #fff;
+    }
+
+    #crt-main-nav-sm a,
+    #crt-main-nav>ul>li>a,
+    .cr-carousel .slick-next:before,
+    .cr-carousel .slick-prev:before,
+    .education-company,
+    .page-numbers,
+    .post-category-comment a,
+    .post-content,
+    .ref-author span,
+    .styled-ul>li>ul ul,
+    .text-muted,
+    .widget_categories li,
+    table>thead>tr>th{
+      color: #fff;
+    }
+    .education-box:before,
+    .styled-ul li:before,
+    .text-dropcup-sq{
+        background-color: #fff;
+    }
+    .brd-btm{
+      border-color: #1FA184;
+    }
+    .btn:hover{
+    	background-color: #1FA184;
+    }
+    .crt-social a:hover{
+    	color: #1FA184;
+    }
+    .form-item{
+      color: #121F26;
+    }
+    .text-box b{
+      background-color: #1FA184;
+      padding: 0.5em;
+      display: inline-block;
+    }
+
+}
+
+
+// theme-changer
+.theme-changer {
+  display: none;
+}
+body.dark {
+  .gg-moon {
+    display: none;
+  }
+}
+body.light {
+  .gg-sun {
+    display: none;
+  }
+}
+.mode-container {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+// CSS.gg icons for sun and moon
+.gg-sun {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 24px;
+  height: 24px;
+  background:
+    linear-gradient(to bottom,
+        currentColor 4px,transparent 0)
+        no-repeat 5px -6px/2px 6px,
+    linear-gradient(to bottom,
+        currentColor 4px,transparent 0)
+        no-repeat 5px 14px/2px 6px,
+    linear-gradient(to bottom,
+        currentColor 4px,transparent 0)
+        no-repeat -8px 5px/6px 2px,
+    linear-gradient(to bottom,
+        currentColor 4px,transparent 0)
+        no-repeat 14px 5px/6px 2px;
+  border-radius: 100px;
+  box-shadow: inset 0 0 0 2px;
+  border: 6px solid transparent
+}
+.gg-sun::after,
+.gg-sun::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  border-right: 4px solid;
+  border-left: 4px solid;
+  left: -6px;
+  top: 5px
+}
+.gg-sun::before {
+  transform: rotate(-45deg)
+}
+.gg-sun::after {
+  transform: rotate(45deg)
+}
+.gg-moon,
+.gg-moon::after {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 50%
+}
+.gg-moon {
+    overflow: hidden;
+    position: relative;
+    transform: rotate(-135deg) scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-bottom-color: transparent
+}
+.gg-moon::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 18px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    top: 8px;
+    left: 2px
+}

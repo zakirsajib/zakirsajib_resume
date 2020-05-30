@@ -1,5 +1,7 @@
 import React from 'react'
 
+//import ThemeChanger from '../components/themeChanger'
+
 import { Link, animateScroll as scroll } from "react-scroll"
 
 const TopNavbar = (props) => {
@@ -7,7 +9,7 @@ const TopNavbar = (props) => {
 		<nav id="crt-main-nav" className={props.displayStatus}>
 		    <ul className="clear-list">
 		        <li>
-		        	<Link 
+		        	<Link
 		        		to="/"
 		        		spy={true}
 						smooth={true}
@@ -17,7 +19,7 @@ const TopNavbar = (props) => {
 		        	</Link>
 		        </li>
 		        <li>
-		        	<Link 
+		        	<Link
 		        		to="experience"
 		        		spy={true}
 						smooth={true}
@@ -27,7 +29,7 @@ const TopNavbar = (props) => {
 		        	</Link>
 		        </li>
 		        <li>
-		        	<Link 
+		        	<Link
 		        		to="code"
 		        		spy={true}
 						smooth={true}
@@ -37,7 +39,7 @@ const TopNavbar = (props) => {
 		        	</Link>
 		        </li>
 		        <li>
-		        	<Link 
+		        	<Link
 		        		to="references"
 		        		spy={true}
 						smooth={true}
@@ -47,7 +49,7 @@ const TopNavbar = (props) => {
 		        	</Link>
 		        </li>
 		        <li>
-		        	<Link 
+		        	<Link
 		        		to="contact"
 		        		spy={true}
 						smooth={true}
@@ -56,7 +58,7 @@ const TopNavbar = (props) => {
 					contact
 					</Link>
 				</li>
-		    </ul>                                 
+		    </ul>
 	    </nav>
 	)
 }
