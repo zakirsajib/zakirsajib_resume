@@ -19,7 +19,7 @@ const Nav =() => {
 								className="avatar avatar-42"
 								src={zs42}
 								srcSet={zs42}
-								alt=""
+								alt="Zakir Sajib avatar"
 							/>
 	            </Link>
 	        </li>

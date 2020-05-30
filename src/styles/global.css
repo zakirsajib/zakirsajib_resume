@@ -48,3 +48,6 @@
 #crt-nav-sm li .crt-icon{
 	font-size: 20px;
 }
+body.light .crt-logo.dark{
+	display: none;
+}
