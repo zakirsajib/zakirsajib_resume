@@ -51,6 +51,7 @@ blockquote,
     quotes:none;
     font-size: 1.5em!important;
     font-weight: 400;
+		font-style: italic;
     letter-spacing: -.3px;
     border-width: 0!important;
     border-radius: 0!important;
