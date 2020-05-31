@@ -1,3 +1,36 @@
+body{
+	font-size: calc(.35842vw + .95296em);
+}
+body,
+h2,h3,h4,h5,h6{
+	font-family: Elena, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+	font-family: Mija, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-upper,
+.ref-author strong,
+.text-upper{
+	text-transform: capitalize;
+}
+b, strong{
+	font-family: Elena, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+blockquote,
+.ref-cont,
+.text-box,
+.pf-text {
+	line-height: calc(1.5em + .2vw);
+}
+.pf-text {
+    font-size: .638em;
+}
 .pf-title{
 	font-size:1.18em;
 	text-transform: capitalize;
@@ -27,16 +60,6 @@
     font-size: 1.5em!important;
     font-weight: 400;
     letter-spacing: -.3px;
-}
-.ref-cont {
-    font-size: 1em;
-    line-height: 1.2em;
-    padding: 0;
-    position: relative;
-    border-width: 0;
-    width: 100%;
-    max-width: 100%;
-    margin: 25px 0 0;
 }
 .btn:hover{
 	background-color: #c0e3e7;

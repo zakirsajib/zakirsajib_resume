@@ -5,6 +5,7 @@ const Footer = styled.div`
 		color:#b2b3b5;
 		font-size:12px;
 		margin:0;
+		line-height: 1.25;
 	}
 `;
 

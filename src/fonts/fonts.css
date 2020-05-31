@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Elena;
+  font-weight: 400;
+  font-style: normal;
+  src: url("elenawebregular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Elena;
+  font-weight: 400;
+  font-style: italic;
+  src: url("elenawebregularitalic.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Elena;
+  font-weight: 700;
+  font-style: normal;
+  src: url("elenawebbold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Elena;
+  font-weight: 700;
+  font-style: italic;
+  src: url("elenawebbolditalic.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mija;
+  font-weight: 400;
+  font-style: normal;
+  src: url("mija_regular-webfont.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mija;
+  font-weight: 700;
+  font-style: normal;
+  src: url("mija_bold-webfont.woff2") format("woff2");
+  font-display: swap;
+}

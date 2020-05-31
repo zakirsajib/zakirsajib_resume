@@ -11,7 +11,7 @@ import Nav from '../components/Nav'
 const Header =(props)=>{
 	return(
 		<header id="crt-header">
-     	<div className="crt-head-inner crt-container hidden-md hidden-xs">
+     	<div className="crt-head-inner crt-container">
         <div className="crt-container-sm">
 	        <div className="crt-head-row">
 	          <div id="crt-head-col1" className="crt-head-col text-left">

@@ -29,7 +29,7 @@ module.exports = {
         ],
         thanks: [`Gatsby`, `Node`],
         site: {
-          'Last update': `2020/05/25`,
+          'Last update': `2020/05/31`,
           Standards: `JavaScript`,
           Components: `humans-generator`,
           Softwares: `Visual Studio Code`
@@ -41,11 +41,17 @@ module.exports = {
       	resolve: `gatsby-plugin-google-fonts`,
       	options: {
 	        fonts: [
-	           `Pacifico`,
-	           `Ubuntu\:400, 500`
+	           `Pacifico`
 	        ],
 	        display: 'swap'
 	    },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+		    name: "fonts",
+		    path: `${__dirname}/src/fonts/`
+      },
     },
     {
 	    resolve: 'gatsby-source-github',
@@ -129,7 +135,7 @@ module.exports = {
         // Ignore
         ignore: '',
         // Purge only the main css file
-        purgeOnly: ['styles/'],
+        purgeOnly: ['styles/', 'fonts/'],
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array

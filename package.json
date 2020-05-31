@@ -53,11 +53,11 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "start": "npm run develop",
+    "start": "gatsby develop",
     "clean": "rimraf .cache public",
-    "build": "npm run clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby build",
-    "develop": "npm run clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby develop",
-    "restart": "kill-port --port 8000 && gatsby clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby develop",
+    "build": "gatsby clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby build",
+    "develop": "gatsby clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby develop",
+    "restart": "kill-port --port 8000 && gatsby clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby develop --host $(ifconfig | awk '/inet 192\\.168\\.[0-9]+\\.[0-9]+/{print $2}') --port 8000",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -126,6 +126,9 @@ body.dark{
     .btn:hover{
     	background-color: #1FA184;
     }
+    .crt-card .crt-social a:hover{
+    	color: #313C42;
+    }
     .crt-social a:hover{
     	color: #1FA184;
     }
@@ -165,6 +168,7 @@ body.light {
 }
 // CSS.gg icons for sun and moon
 .gg-sun {
+  cursor: pointer;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -214,6 +218,7 @@ body.light {
     border-radius: 50%
 }
 .gg-moon {
+  cursor: pointer;
     overflow: hidden;
     position: relative;
     transform: rotate(-135deg) scale(var(--ggs,1));

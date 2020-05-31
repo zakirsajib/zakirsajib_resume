@@ -33,10 +33,10 @@ const CardSideBox = () => {
 				        <Social />
 				    </div>
 				</div>
-		        <div className="crt-side-box-btn">
+		        <div className="crt-side-box-btn" style={{display: `none`}}>
 		            <a
 									className="btn btn-default btn-lg btn-block btn-thin btn-upper"
-									href={cv}
+									href="#"
 									target="_blank"
 									rel="noopener noreferrer"
 								>Download Resume</a>
