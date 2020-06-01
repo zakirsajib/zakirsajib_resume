@@ -17,7 +17,7 @@ const data = {
 	],
 	datasets: [{
 		label: 'My Front-end skills',
-		data: [50, 50, 50, 50, 80, 80, 80, 20, 50, 50, 50, 0, 100],
+		data: [50, 50, 60, 50, 80, 80, 80, 20, 50, 50, 50, 0, 100],
 		backgroundColor: [
 		'#F0db4F',
 		'#61DBFB',

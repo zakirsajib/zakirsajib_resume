@@ -4,17 +4,20 @@ import {Doughnut} from 'react-chartjs-2';
 const data = {
 	labels: [
 		'WordPress',
-		'Netlify CMS'
+		'Netlify CMS',
+		'Prismic'
 	],
 	datasets: [{
-		data: [80, 50],
+		data: [80, 50, 30],
 		backgroundColor: [
 		'#21759B',
-		'#C9FA4B'
+		'#C9FA4B',
+		'#5163ba'
 		],
 		hoverBackgroundColor: [
 			'#21759B',
-			'#C9FA4B'
+			'#C9FA4B',
+			'#5163ba'
 		]
 	}]
 };
