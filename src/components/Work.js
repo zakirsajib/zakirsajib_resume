@@ -29,7 +29,7 @@ const Work = () => {
 									<span>Feb <strong className="text-upper">2020</strong> - Mar <strong>2020</strong></span>
 							</time>
 							<h3>Freelance React Developer</h3>
-							<span className="education-company">D.G. Techlink Ltd</span>
+							<span className="education-company">D.G. Techlink Ltd.</span>
 							<p>Responsible for developing React, Gatsby projects.</p>
 							<ul>
 								<li><a href="https://xtrademark.netlify.app/" target="_blank" rel="noopener noreferrer">xtrademark.netlify.app (React+Gatsby+WordPress as headless CMS)</a></li>
@@ -42,7 +42,7 @@ const Work = () => {
 	            </time>
 	            <h3>Freelance Full Stack WordPress Developer</h3>
 	            <span className="education-company">Aodhan King</span>
-	            <p>Responsible to develop two complex websites <a href="https://www.piedraclave.com/" target="_blank" rel="noopener noreferrer">piedraclave.com</a> and <a href="https://www.kidsofcoral.com/" target="_blank" rel="noopener noreferrer">kidsofcoral.com</a> in WordPress platform from scratch. <br />Improved the speed optimisation from 40% to 90% both mobile and desktop.</p>
+	            <p>Responsible to develop two complex websites <a href="https://www.piedraclave.com/" target="_blank" rel="noopener noreferrer">piedraclave.com</a> and <a href="https://www.kidsofcoral.com/" target="_blank" rel="noopener noreferrer">kidsofcoral.com</a> in WordPress platform from scratch. Improved the speed optimisation from 40% to 90% both mobile and desktop.</p>
 	        </div>
 
 
@@ -56,7 +56,7 @@ const Work = () => {
 	                <a href="https://www.butterfly.ai/" target="_blank" rel="noopener noreferrer"><img src={butterfly} alt="Butterfly"/></a>
 	            </div>
 	            <span className="education-company"><a href="https://www.butterfly.ai/" target="_blank" rel="noopener noreferrer">Butterfly</a></span>
-	            <p>Responsible to develop a complex website <a href="https://www.butterfly.ai/" target="_blank" rel="noopener noreferrer">butterfly.ai</a> in WordPress platform from scratch. <br />Improved the speed optimisation up to 90% both mobile and desktop.</p>
+	            <p>Responsible to develop a complex website <a href="https://www.butterfly.ai/" target="_blank" rel="noopener noreferrer">butterfly.ai</a> in WordPress platform from scratch. Improved the speed optimisation up to 90% both mobile and desktop.</p>
 	        </div>
 
 	      	<div className="education-box">
@@ -68,7 +68,7 @@ const Work = () => {
 	                <a href="https://www.thefrontlash.com" target="_blank" rel="noopener noreferrer"><img src={frontlash} alt="The Frontlash"/></a>
 	            </div>
 	            <span className="education-company"><a href="https://www.thefrontlash.com" target="_blank" rel="noopener noreferrer">The Frontlash</a></span>
-	            <p>Responsible to develop a PWA complex fashion blog site <a href="https://www.thefrontlash.com" target="_blank" rel="noopener noreferrer">thefrontlash.com.</a> in WordPress platform. <br />Improved the speed optimisation from 20% to 90% both mobile and desktop.</p>
+	            <p>Responsible to develop a PWA complex fashion blog site <a href="https://www.thefrontlash.com" target="_blank" rel="noopener noreferrer">thefrontlash.com.</a> in WordPress platform. Improved the speed optimisation from 20% to 90% both mobile and desktop.</p>
 	        </div>
 
             <div className="education-box">
@@ -80,7 +80,7 @@ const Work = () => {
                     <a href="https://e-invasion.com/" target="_blank" rel="noopener noreferrer"><img src={einvasion} alt="einvasion"/></a>
                 </div>
                 <span className="education-company"><a href="https://e-invasion.com/" target="_blank" rel="noopener noreferrer">E-Invasion A/S</a></span>
-                <p>Responsible to develop ecommerce sites <a href="https://www.posterfamily.com" target="_blank" rel="noopener noreferrer">posterfamily.com</a>, <a href="http://www.clearblueshop.dk/" target="_blank" rel="noopener noreferrer">clearblueshop.dk</a>, <a href="http://www.clearblueshop.se/" target="_blank" rel="noopener noreferrer">clearblueshop.se</a> and one plugin <a href="https://babyplan.se/berakna-agglossning/" target="_blank" rel="noopener noreferrer">ovulation calculator</a>. <br />Configured the server and optimised the site for speed optimisation up to 90%.</p>
+                <p>Responsible to develop ecommerce sites <a href="https://www.posterfamily.com" target="_blank" rel="noopener noreferrer">posterfamily.com</a>, <a href="http://www.clearblueshop.dk/" target="_blank" rel="noopener noreferrer">clearblueshop.dk</a>, <a href="http://www.clearblueshop.se/" target="_blank" rel="noopener noreferrer">clearblueshop.se</a> and one plugin <a href="https://babyplan.se/berakna-agglossning/" target="_blank" rel="noopener noreferrer">ovulation calculator</a>. Configured the server and optimised the site for speed optimisation up to 90%.</p>
             </div>
 
             <div className="education-box">
