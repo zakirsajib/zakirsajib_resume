@@ -12,22 +12,33 @@ const Work = () => {
 	return(
 		<div className="education">
 					<div className="education-box">
-							<time className="education-date" dateTime="2019-09T">
-									<span>Sep <strong className="text-upper">2019</strong> - present</span>
+							<time className="education-date" dateTime="2020-03T">
+									<span>Mar <strong className="text-upper">2020</strong> - present</span>
 							</time>
 							<h3>Freelance Full Stack WordPress Developer</h3>
-							<span className="education-company">Gal Doron</span>
-							<p>Responsible for developing various WordPress, React, Gatsby projects. Some of the projects I worked are: </p>
+							<span className="education-company">NytroBit Labs</span>
+							<p>Responsible for developing various WordPress projects. Some of the projects I worked are: </p>
 							<ul>
 								<li><a href="https://www.mears.net" target="_blank" rel="noopener noreferrer">mears.net (WordPress)</a></li>
-								<li><a href="https://xtrademark.netlify.app/" target="_blank" rel="noopener noreferrer">xtrademark.netlify.app (Gatsby+WordPress as headless CMS)</a></li>
 								<li><a href="http://stgmearscareer.wpengine.com" target="_blank" rel="noopener noreferrer">stgmearscareer.wpengine.com (WordPress)</a></li>
 							</ul>
 					</div>
 
 					<div className="education-box">
-	            <time className="education-date" dateTime="2019-08T2019-12">
-	                <span>Aug <strong className="text-upper">2019</strong> - Dec <strong>2019</strong></span>
+							<time className="education-date" dateTime="2019-09T2020-03">
+									<span>Feb <strong className="text-upper">2020</strong> - Mar <strong>2020</strong></span>
+							</time>
+							<h3>Freelance React Developer</h3>
+							<span className="education-company">D.G. Techlink Ltd</span>
+							<p>Responsible for developing React, Gatsby projects.</p>
+							<ul>
+								<li><a href="https://xtrademark.netlify.app/" target="_blank" rel="noopener noreferrer">xtrademark.netlify.app (React+Gatsby+WordPress as headless CMS)</a></li>
+							</ul>
+					</div>
+
+					<div className="education-box">
+	            <time className="education-date" dateTime="2019-08T2020-02">
+	                <span>Aug <strong className="text-upper">2019</strong> - Feb <strong>2020</strong></span>
 	            </time>
 	            <h3>Freelance Full Stack WordPress Developer</h3>
 	            <span className="education-company">Aodhan King</span>
