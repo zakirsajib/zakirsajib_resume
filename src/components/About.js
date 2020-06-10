@@ -5,7 +5,7 @@ const About =()=> {
 		<div>
         <div className="row">
             <div className="col-sm-12">
-                <h2 className="title-lg text-upper">Helo, I’m Zakir Sajib.</h2>
+                <h2 className="title-lg text-upper">Hello, I’m Zakir Sajib.</h2>
                 <div className="text-box">
                     <p>
                     I'm a full-stack Web Developer (Yes both front and backend) with React, Gatsby, WordPress and Node experience.
