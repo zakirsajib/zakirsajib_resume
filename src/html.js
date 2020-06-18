@@ -29,10 +29,10 @@ export default function HTML(props) {
                 top: 0,
                 right: 0,
                 bottom: 0,
-                zIndex: 1,
+                zIndex: 100,
               }}
            >
-              <img src={LoaderSVG} alt="" width="100"/>
+              <img src={LoaderSVG} alt="loader spinner" width="150" height="150"/>
         </div>
         <div
           key={`body`}
@@ -40,15 +40,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                setTimeout(function() {
-                    document.getElementById("___loader").style.display = "none"
-                }, 200)
-            `,
-          }}
-        />
       </body>
     </html>
   )
