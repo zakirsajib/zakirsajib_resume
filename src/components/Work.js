@@ -1,5 +1,8 @@
 import React from 'react'
 
+import hublearn from '../images/uploads/experience/Logo-HubLearn.svg'
+import nitrobitlab from '../images/uploads/experience/nytrobitslab.png'
+import techlink from '../images/uploads/experience/techlink.png'
 import butterfly from '../images/uploads/experience/ButterflyIcon.svg'
 import frontlash from '../images/uploads/experience/TheFrontlash_Logo_Secondary_Poppy.png'
 import einvasion from '../images/uploads/experience/e-invasion-logo.jpg'
@@ -13,14 +16,27 @@ const Work = () => {
 		<div className="education">
 					<div className="education-box">
 							<time className="education-date" dateTime="2020-03T">
-									<span>Mar <strong className="text-upper">2020</strong> - present</span>
+									<span>Jul <strong className="text-upper">2020</strong> - present</span>
+							</time>
+							<h3>Senior Web Developer</h3>
+							<div className="education-logo">
+				                <a href="https://www.hublearn.com/" target="_blank" rel="noopener noreferrer"><img src={hublearn} alt="HubLearn" width="192" height="48"/></a>
+				            </div>
+							<p>Responsible for developing a <a href="https://www.shopbylocals.com" target="_blank" rel="noopener noreferrer">multivendor e-commerce website</a> and a <a href="https://www.hublearn.com" target="_blank" rel="noopener noreferrer">LMS</a> system in WordPress+WooCommerce platform. </p>
+					</div>
+					<div className="education-box">
+							<time className="education-date" dateTime="2020-03T">
+									<span>Mar <strong className="text-upper">2020</strong> - Jun <strong>2020</strong></span>
 							</time>
 							<h3>Freelance Full Stack WordPress Developer</h3>
+								<div className="education-logo">
+					                <img src={nitrobitlab} alt="NytroBit Labs" width="50" height="50"/>
+					            </div>
 							<span className="education-company">NytroBit Labs</span>
 							<p>Responsible for developing various WordPress projects. Some of the projects I worked are: </p>
 							<ul>
 								<li><a href="https://www.mears.net" target="_blank" rel="noopener noreferrer">mears.net (WordPress)</a></li>
-								<li><a href="http://stgmearscareer.wpengine.com" target="_blank" rel="noopener noreferrer">stgmearscareer.wpengine.com (WordPress)</a></li>
+								
 							</ul>
 					</div>
 
@@ -29,7 +45,9 @@ const Work = () => {
 									<span>Feb <strong className="text-upper">2020</strong> - Mar <strong>2020</strong></span>
 							</time>
 							<h3>Freelance React Developer</h3>
-							<span className="education-company">D.G. Techlink Ltd.</span>
+							<div className="education-logo">
+								<a href="https://www.techlink.com.cy/" target="_blank" rel="noopener noreferrer"><img src={techlink} alt="Techlink Ltd." width="207" height="98"/></a>
+							</div>
 							<p>Responsible for developing React, Gatsby projects.</p>
 							<ul>
 								<li><a href="https://xtrademark.netlify.app/" target="_blank" rel="noopener noreferrer">xtrademark.netlify.app (React+Gatsby+WordPress as headless CMS)</a></li>

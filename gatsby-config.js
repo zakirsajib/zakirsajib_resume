@@ -29,7 +29,7 @@ module.exports = {
         ],
         thanks: [`Gatsby`, `Node`],
         site: {
-          'Last update': `2020/05/31`,
+          'Last update': `2021/02/20`,
           Standards: `JavaScript`,
           Components: `humans-generator`,
           Softwares: `Visual Studio Code`
