@@ -12,10 +12,9 @@ const CardSideBox = () => {
 				<div className="crt-card bg-primary text-center">
 				    <div className="crt-card-avatar">
 				        <img
-									className="avatar avatar-195"
+									className=""
 									src={zs195}
-				          width="195"
-									height="195"
+				          			width="150"
 									alt="Zakir Sajib - Full-Stack Web Developer - React.js | Node.js | Gatsby.js | WordPress"
 								/>
 				    </div>
