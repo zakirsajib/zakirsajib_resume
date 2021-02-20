@@ -9,7 +9,7 @@ const CardSideBox = () => {
 	return (
 		<div id="crt-side-box">
 	    	<div className="crt-side-box-item">
-				<div className="crt-card bg-primary text-center">
+				<div className="crt-card bg-secondary text-center">
 				    <div className="crt-card-avatar">
 				        <img
 									className=""
