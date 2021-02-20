@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Social from '../components/Social'
-import zs195 from '../images/uploads/avatar/zs-195x195.jpg'
+import zs195 from '../images/uploads/avatar/zsresume.jpg'
 
 import cv from '../cv/Latest-CV.pdf'
 
